@@ -20,6 +20,4 @@ This project involves extracting actionable insights from a relational database 
 ```sql
 SELECT ci.Name AS Capital_Name FROM country c JOIN city ci ON c.Capital = ci.ID WHERE c.Name = 'Spain';
 
-
-
-📂 [**View SQL Scripts & Query Results**](SQL_example_queries.txt)
+**📂 [**View SQL Scripts & Query Results**](SQL_example_queries.txt)**
