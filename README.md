@@ -19,3 +19,5 @@ This project involves extracting actionable insights from a relational database 
 *Connecting the country table to the city table to find specific capital names.*
 ```sql
 SELECT ci.Name AS Capital_Name FROM country c JOIN city ci ON c.Capital = ci.ID WHERE c.Name = 'Spain';
+
+> 📂 [**View SQL Scripts & Query Results**](SQL_example_queries.txt)
