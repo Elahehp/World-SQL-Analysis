@@ -15,9 +15,5 @@ This project involves extracting actionable insights from a relational database 
 - **Data Summarization:** Leveraged `GROUP BY` and `ORDER BY` to create ranked reports for executive decision-making.
 
 ## 📖 Query Samples & Results
-### 1. Identifying National Capitals
-*Connecting the country table to the city table to find specific capital names.*
-```sql
-SELECT ci.Name AS Capital_Name FROM country c JOIN city ci ON c.Capital = ci.ID WHERE c.Name = 'Spain';
 
-**📂 [**View SQL Scripts & Query Results**](SQL_example_queries.txt)**
+> 📂 [**View SQL Scripts & Query Results**](./SQL_example_queries.txt)
